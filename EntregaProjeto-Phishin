@@ -1,0 +1,24 @@
+# Phishing para captura de login e senhas do Facebook !
+
+## Ferramentas utilizadas no processo :
+Kali Linux = É uma distro baseada em Debian para uso forense para realização de pentest e análise forense;
+setoolkit = Social-Engineer Toolkit (SEToolkit) é uma poderosa suíte de código aberto projetada para auxiliar os profissionais de segurança a realizar testes de engenharia social;
+
+## Configurando o Phishing no Kali Linux:
+Acesso root: sudo su (No meu caso não foi preciso pois acessei a maquina virtual acessando como user root);
+
+A) Iniciando o setoolkit: setoolkit;
+
+B) Tipo de ataque: Social-Engineering Attacks;
+
+C) Vetor de ataque: Web Site Attack Vectors;
+
+D) Método de ataque: Credential Harvester Attack Method;
+
+E) Método de ataque: Site Cloner, aqui é onde começamos a rodar um servidor virtual qual utiliza do IP da maquina para concetar a outros computadores;
+
+F) Obtendo o endereço IP da máquina: ifconfig;
+
+URL para clone: http://www.facebook.com;
+
+
